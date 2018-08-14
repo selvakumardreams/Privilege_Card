@@ -179,6 +179,9 @@ class HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         return true;
       },
       child: new Scaffold(
+        appBar: new AppBar(
+          title: new Text('Home'),
+        ),
         body: new Container(
           width: screenSize.width,
           height: screenSize.height,

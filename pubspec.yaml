@@ -9,6 +9,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   intl: "^0.15.2"
+  qr_flutter: ^1.1.3
 
 dev_dependencies:
   flutter_test:
@@ -28,7 +29,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-  - assets/login.jpg
+  - assets/card.jpg
   - assets/home.jpg
   - assets/tick.jpg
   - assets/avatars/avatar-1.jpg

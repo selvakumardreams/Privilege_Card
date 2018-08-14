@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:privilege_card/screens/Card/index.dart';
 import 'package:privilege_card/screens/Home/index.dart';
 import 'package:privilege_card/screens/Login/index.dart';
 
@@ -19,6 +20,12 @@ class Routes {
           case '/home':
             return new MyCustomRoute(
               builder: (_) => new HomeScreen(),
+              settings: settings,
+            );
+
+          case '/card':
+            return new MyCustomRoute(
+              builder: (_) => new CardScreen(),
               settings: settings,
             );
         }
